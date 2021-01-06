@@ -12,6 +12,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatCard, MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [AppComponent, LoginComponent],
   imports: [
@@ -22,6 +28,11 @@ import { MatMenuModule } from '@angular/material/menu';
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatProgressSpinnerModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

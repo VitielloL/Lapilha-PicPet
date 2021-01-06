@@ -11,3 +11,25 @@
     font-family: "Sansita Swashed";
   }
 }
+
+.loginCard {
+  width: 400px;
+  margin: 10% auto;
+
+  .loginTitle {
+    font-size: 2rem;
+    margin-left: 135px; //pensar em alguma forma inteligente de por no meio
+  }
+
+  .loginInput {
+    width: 400px;
+    size: 2em;
+  }
+
+  .loginButon {
+    margin-left: 160px; //pensar em alguma forma inteligente de por no meio
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 4px;
+  }
+}
