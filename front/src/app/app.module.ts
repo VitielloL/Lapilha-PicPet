@@ -18,9 +18,10 @@ import { MatInputModule } from '@angular/material/input';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './components/template/footer/footer.component';
+import { HeaderComponent } from './components/template/header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, FooterComponent],
+  declarations: [AppComponent, LoginComponent, FooterComponent, HeaderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -1,28 +1,4 @@
-<mat-toolbar color='primary'>
-<mat-toolbar-row class="header">
-    <span class="picpet">PicPet</span>
-    <span class="spacer"></span>
-    <button class="botoesDireita" mat-button> Sobre </button>
-    <button  class="botoesDireita" mat-button> Contate-nos </button>
-    <button mat-icon-button [mat-menu-trigger-for]="menu" ><mat-icon>more_vert </mat-icon></button>
-    <mat-menu #menu="matMenu">
-        <button mat-menu-item>
-            <mat-icon>dialpad</mat-icon>
-            <span>teste 1</span>
-        </button>
-
-        <button mat-menu-item>
-            <mat-icon>voicemail</mat-icon>
-            <span>teste 2</span>
-        </button>
-
-        <button mat-menu-item>
-            <mat-icon>notifications_off</mat-icon>
-            <span>teste 3</span>
-        </button>
-    </mat-menu>
-</mat-toolbar-row>
-</mat-toolbar>
+<app-header> </app-header>
 
 <mat-card class="loginCard">
     <mat-card-header>
