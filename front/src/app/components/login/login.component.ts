@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
       // this.router.navigate(['user']);
       alert('login efetivado');
     } else {
-      alert('login e passoword invalido!');
+      alert('login ou passoword invalido!');
     }
   }
 }
