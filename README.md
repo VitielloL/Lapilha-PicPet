@@ -1,4 +1,5 @@
 # Lapilha-PicPet
 
-front:
-install angular    - npm i -g @angular/cli
+front: 
+
+install angular and material - npm i
