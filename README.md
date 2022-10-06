@@ -1,5 +1,11 @@
 # Lapilha-PicPet
-Projeto incompleto de rede social para animais, contem login por enquanto. Frontend em Angular
+Template de Login - Angular
 
-front: 
-install angular and material - npm i
+--------------------------------
+<i>Frontend:</i>
+
+npm i
+
+npm install -g @angular/cli
+
+ng add @angular/material
