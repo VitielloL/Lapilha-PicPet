@@ -1,5 +1,5 @@
 # Lapilha-PicPet
-Template de Login - Angular
+Template de Login - Angular.
 
 Hospedagem: https://lapilha-pic-pet.vercel.app/
 
